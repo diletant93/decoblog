@@ -13,6 +13,7 @@
 .m-container1{
     width: 93%;
     height: 105px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -34,6 +35,7 @@
     display: flex;
     margin-right: 2%;
     align-items: center;
+    justify-content: center;
     flex-wrap: nowrap;
 }
 .button-a{
@@ -67,11 +69,39 @@
 .inside-m-container2{
     width: 93%;
     height: 1530px;
+    margin: 0 auto;
+    margin-top: 75px;
     display:flex;
     justify-content: space-between;
 }
 .column{
     height: 100%;
-    width: 20%;
-    border: 1px solid black;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;    
+}
+.item{
+    height: 32%;
+    width: 100%;
+    border:1px solid red;
+}
+.col2 .it1, .col2 .it3{
+    flex-basis:38%;
+}
+.col2 .it2{
+    flex-basis:20%;
+}
+.col3 .it1{
+flex-basis: 25%;
+}
+.col3 .it2, .col3 .it3{
+    flex-basis: 35%;
+}
+.col4 .it1{
+flex-basis: 40%;
+}
+.col4 .it2, .col4 .it3{
+  flex-basis: 28%;
 }
