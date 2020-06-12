@@ -7,8 +7,8 @@
     font-family: "Hind-SemiBold";
 }
 *{
-    margin: 0 auto;
-    padding: 0 auto ;
+    padding: 0 ;
+    margin: 0;
 }
 header{
     width: 100%;
@@ -23,6 +23,7 @@ background-color: #212429;
 .container1-tools{
     width: 93%;
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
 }
 .tool-burger{
@@ -125,8 +126,7 @@ background-color: #212429;
 .text-banner2{
     display: flex;
     align-items: center;
-    
-    margin-right: 10px;
+    float:right;
 }
 .text-banner2 p::before{
 content: url(../img/header/arrow.png);
