@@ -90,6 +90,7 @@ background-color: #212429;
     height: 580px;
     position: absolute;
     display: flex;
+    justify-content: space-between;
     bottom: 0px;
     left: 50%;
     transform: translate(-50%,0);
